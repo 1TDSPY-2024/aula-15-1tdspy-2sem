@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .menu{
+        @apply mx-10 py-5;
+    }
+
+    .menu ul{
+        @apply list-none;
+    }
+
+    .menu a{
+        @apply no-underline;
+    }
+
+}
