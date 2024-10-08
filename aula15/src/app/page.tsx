@@ -1,11 +1,11 @@
-import imgCapa from "@/img/cover.jpg";
-import Image from "next/image";
+import Image from "next/image"
+import imgCapa from "@/img/Black-Friday-Facebook-Cover-Banner-10.jpg";
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <Image src={imgCapa} alt="Imagem de capa"/>
+      <Image src={imgCapa} alt="Fones de ouvido"/>
+
     </div>
   )
 }

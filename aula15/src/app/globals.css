@@ -17,7 +17,7 @@
 
     .spinner{
         @apply flex justify-center items-center;
-        & div{
+        &div{
             @apply animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500;
         }
     }
@@ -25,13 +25,12 @@
     .cabecalho{
         @apply flex justify-between items-center text-2xl;
 
-        & li{
-            @apply mr-20 inline;
+        & li {
+            @apply mr-10 inline;
 
-             & a{
+            & a {
                 @apply text-gray-600 hover:text-gray-900 hover:underline;
-             }
-
+            }
         }
     }
 
