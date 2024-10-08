@@ -31,7 +31,7 @@ export default function Produtos() {
     return (
         <div>
             <h2>Produtos</h2>
-            <table>
+            <table className="tabelaProd">
                 <thead>
                     <tr>
                         <th>Id</th>
