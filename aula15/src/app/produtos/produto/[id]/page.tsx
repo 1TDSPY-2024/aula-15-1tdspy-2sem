@@ -1,7 +1,9 @@
 
+
 export default function Produto({ params }: { params: { id: number } }) {
     return (
-        <div>
+
+        <div> 
             <h2>Produto</h2>
             <div>
                 <p>ID : {params.id}</p>
