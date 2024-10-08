@@ -25,7 +25,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 
   return (
     <html lang="pt-br">
-      <body>
+      <body className="grid grid-rows-[5em_1fr_50px] items-center min-h-screen">
         <Cabecalho />
           {children}
         <Rodape />

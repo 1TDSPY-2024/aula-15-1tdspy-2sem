@@ -29,9 +29,8 @@ export default function Produtos() {
     }, [])
     
     return (
-        <div>
-            <h2>Produtos</h2>
-            <table>
+        <main className="main">
+            <table className="tabelaProd">
                 <thead>
                     <tr>
                         <th>Id</th>
@@ -62,6 +61,6 @@ export default function Produtos() {
                     </tr>
                 </tfoot>
             </table>
-        </div>
+        </main>
     )
 }

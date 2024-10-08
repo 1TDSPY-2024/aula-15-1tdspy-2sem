@@ -1,8 +1,7 @@
 
 export default function Rodape() {
     return (
-        <footer>
-            <h2>Rodape</h2>
+        <footer className="footer">
             <p>Desenvolvido por <span>Rei Luizinho</span></p>
         </footer>
     )
