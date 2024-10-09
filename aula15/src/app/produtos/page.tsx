@@ -3,6 +3,7 @@
 import { TipoProduto } from "@/types";
 import Link from "next/link"
 import { useEffect, useState } from "react"
+import { GET } from "../api/base-produtos/route";
 
 export default function Produtos() {
 
@@ -20,6 +21,7 @@ export default function Produtos() {
         
         const chamadaApi = async ()=>{
             const response = await fetch("http://localhost:3000/api/base-produtos");
+            // const response = await GET()
             const data = await response.json();
 
             setProdutos(data);
